@@ -4,7 +4,7 @@
 
 ## Instalação
 
-Você pode instalar diretamente do PyPI (depois de publicar) com:
+Você pode instalar diretamente do PyPI com:
 
 ```bash
 pip install flask-ezlogin
