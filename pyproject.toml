@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flask-ezlogin"
+version = "0.2.1"
+description = "Easy login setup with Flask, Flask-Login and Flask-WTF"
+readme = "README.md"
+authors = [
+    { name = "Artur Arantes Santos da Silva", email = "arturarantesads@gmail.com" },
+]
+urls = { "Homepage" = "https://github.com/arturads/flask-ezlogin" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Framework :: Flask",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "Flask",
+    "Flask-Login",
+    "Flask-WTF"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
